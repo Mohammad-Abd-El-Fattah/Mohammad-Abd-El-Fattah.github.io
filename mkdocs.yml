@@ -1,0 +1,81 @@
+site_name: Mohammad Abd El-Fattah
+site_url : https://mydomain.org/mysite
+theme :
+
+  name: material
+  palette:
+    scheme: slate
+    primary: black
+
+
+
+
+
+  features:
+    - content.code.annotate
+    - content.code.copy
+    - content.tabs.link
+    - header.autohide
+    - announce.dismiss
+    - navigation.instant
+    - navigation.instant.prefetch
+    - navigation.instant.progress
+    - navigation.instant.preview
+    - navigation.tracking
+    - navigation.tabs
+    - navigation.footer
+    - navigation.indexes
+    - navigation.sections
+    - navigation.tabs
+    - navigation.tabs.sticky
+    - navigation.top
+    - navigation.expand
+    - navigation.path
+    - navigation.tracking
+    - search.highlight
+    - search.share
+    - search.suggest
+
+extra:
+  social:
+    - icon: fontawesome/brands/linkedin
+      link: https://www.linkedin.com/in/m-abdelfattah-m
+    - icon: fontawesome/brands/github
+      link: https://github.com/Mohammad-Abd-El-Fattah
+      
+nav:
+  - Home: index.md
+  - Knowledge Base:
+      - 'Start Here':
+         - blog/index.md
+      - 'Computer Science':
+         - 'Programming': 
+                    - 'Object Oriented Programming':
+                        - blog/posts/Computer Science/Programming/2023-12-28-Complex-Class.md
+                    - 'Data Structure':
+                        - blog/posts/Computer Science/Programming/2024-01-04-delving_deeper_into_factorials.md
+                        - blog/posts/Computer Science/Programming/2024-01-05-unraveling_the_fibonacci_sequence.md
+                        - blog/posts/Computer Science/Programming/2024-01-06-finding_common_ground_with_recursion.md
+                        - blog/posts/Computer Science/Programming/2024-01-06-multiplying_with_recursive_twists.md
+
+
+  - About:
+    - About Me : About/about.md
+    - Project : About/Projects.md
+  - Tags: tags.md
+
+plugins:
+  - search
+  - tags:
+      tags_file: tags.md
+  - blog #:
+         # - blog_dir: blog/index.md
+
+markdown_extensions:
+  - pymdownx.highlight:
+      anchor_linenums: true
+      line_spans: __span
+      pygments_lang_class: true
+  - pymdownx.inlinehilite
+  - pymdownx.snippets
+  - pymdownx.superfences
