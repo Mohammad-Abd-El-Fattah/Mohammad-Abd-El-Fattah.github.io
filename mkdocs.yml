@@ -1,7 +1,7 @@
 site_name: Mohammad Abd El-Fattah
 theme :
   name: material
-  favicon: docs/images/favicon.png
+  favicon: docs/images/icon/favicon.png
   icon:
    logo: fontawesome/solid/brain
   palette:
@@ -107,3 +107,4 @@ markdown_extensions:
   - pymdownx.inlinehilite
   - pymdownx.snippets
   - pymdownx.superfences
+copyright: Copyright &copy; 2024 Mohammad Abd El-Fattah
