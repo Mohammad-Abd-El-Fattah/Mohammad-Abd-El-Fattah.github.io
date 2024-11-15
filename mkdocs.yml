@@ -1,7 +1,7 @@
 site_name: Mohammad Abd El-Fattah
 theme :
   name: material
-  favicon: images/favicon.ico
+  favicon: docs/images/favicon.png
   icon:
    logo: fontawesome/solid/brain
   palette:
