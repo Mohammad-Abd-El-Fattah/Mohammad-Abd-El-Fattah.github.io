@@ -1,7 +1,6 @@
 site_name: Mohammad Abd El-Fattah
 theme :
   name: material
-  logo: images/icon/favicon-24x24.png
   palette:
     scheme: slate
     primary: black
