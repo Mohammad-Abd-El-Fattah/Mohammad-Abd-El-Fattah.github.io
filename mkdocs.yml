@@ -1,8 +1,7 @@
 site_name: Mohammad Abd El-Fattah
-site_url : https://mydomain.org/mysite
 theme :
-
   name: material
+  logo: images/icon/favicon-24x24.png
   palette:
     scheme: slate
     primary: black
