@@ -1,13 +1,12 @@
 site_name: Mohammad Abd El-Fattah
 theme :
   name: material
+  icon:
+   logo: fontawesome/solid/brain
+
   palette:
     scheme: slate
     primary: black
-
-
-
-
 
   features:
     - content.code.annotate
