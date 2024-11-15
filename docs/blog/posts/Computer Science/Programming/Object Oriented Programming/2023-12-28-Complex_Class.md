@@ -19,7 +19,7 @@ In this  post, I will explain the basic concepts of Object-Oriented Programming 
 - Operator Overloading: Operator overloading is a form of polymorphism that allows a user-defined operator to work with different types of operands. Operator overloading is achieved by defining a special function that has the keyword operator followed by the operator symbol.
 
 ## The code for the class Complex is as follows:
-```c++
+```cpp
 #include<iostream> 
 using namespace std; 
 class Complex {
@@ -81,15 +81,15 @@ int main() {
 
 ### The OOP concepts that are used in this code are:
 - Class and Object: The class Complex is a user-defined data type that has two data members (real and img) and four member functions (Complex, Display, and operator+). The objects c1, c2, and c3 are instances of the class Complex that have their own values for the data members and can access the member functions using the dot operator (.). For example, the following code creates an object of the class Complex named c1 and initializes it with 5 and 10 using the parameterized constructor:
-```c++
+```cpp
 Complex c1(5,10);
 ```
 - Encapsulation: The data members real and img are private, which means they can only be accessed by the member functions of the class Complex. The member functions are public, which means they can be accessed by any code that has access to the objects of the class Complex. This way, the data is protected from being modified by external code and the integrity of the object is maintained. For example, the following code prints the complex number in the form of real+imgi using the cout object, but it does not directly access the data members of the object:
-```c
+```cpp
 c1.Display();
 ```
 - Operator Overloading: The operator+ function is an example of operator overloading that allows the addition of two complex numbers using the + operator. The function takes a reference to another object of the class Complex as a parameter and returns a new object of the class Complex as the result. The function is defined using the keyword operator followed by the operator symbol (+). For example, the following code adds the c1 and c2 objects using the operator overloading function and assigns the result to the c3 object:
-```c
+```cpp
 c3=c1+c2;
 ```
 # Conclusion
