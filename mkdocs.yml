@@ -42,42 +42,44 @@ extra:
       
 nav:
   - Home: index.md
-  - Knowledge Base:
+  - Cyber Security:
       - 'Start Here':
          - blog/index.md
-      - 'Computer Science':
-        - 'Programming': 
-          - 'Object Oriented Programming':
-            - blog/posts/Computer Science/Programming/Object Oriented Programming/2023-12-28-Complex_Class.md
-            - blog/posts/Computer Science/Programming/Object Oriented Programming/2023-03-29-Study_Estimates_System.md
-            - blog/posts/Computer Science/Programming/Object Oriented Programming/2023-03-29-Adding_Elements_of_a_2D_Array.md
-            - blog/posts/Computer Science/Programming/Object Oriented Programming/2023-03-29-Area_Of_Circle_Calcalte.md
-            - blog/posts/Computer Science/Programming/Object Oriented Programming/2023-03-29-Calculating_the_Factorial_of_a_Number.md
-            - blog/posts/Computer Science/Programming/Object Oriented Programming/2023-03-29-Finding_the_Biggest_Number_Between_Two_Values.md
-            - blog/posts/Computer Science/Programming/Object Oriented Programming/2023-03-29-Function_Overloading.md
-            - blog/posts/Computer Science/Programming/Object Oriented Programming/2023-03-29-Insurance_Eligibility_System.md
-            - blog/posts/Computer Science/Programming/Object Oriented Programming/2023-03-29-Math_Functions.md
-            - blog/posts/Computer Science/Programming/Object Oriented Programming/2023-03-29-Number_Checker.md
-            - blog/posts/Computer Science/Programming/Object Oriented Programming/2023-03-29-Separating_Even_and_Odd_Numbers_in_an_Array.md
-            - blog/posts/Computer Science/Programming/Object Oriented Programming/2023-03-29-Study_Estimates_System.md
-            - blog/posts/Computer Science/Programming/Object Oriented Programming/2023-03-29-Summing_Elements_of_a_Matrix.md
-            - blog/posts/Computer Science/Programming/Object Oriented Programming/2023-03-29-Summing_Matrix_Corners_and_Crosses.md
-          - 'Data Structure':
-            - blog/posts/Computer Science/Programming/Data Structure/2024-01-04-delving_deeper_into_factorials.md
-            - blog/posts/Computer Science/Programming/Data Structure/2024-01-05-unraveling_the_fibonacci_sequence.md
-            - blog/posts/Computer Science/Programming/Data Structure/2024-01-06-finding_common_ground_with_recursion.md
-            - blog/posts/Computer Science/Programming/Data Structure/2024-01-06-multiplying_with_recursive_twists.md       
-        - 'Database':
-          - blog/posts/Computer Science/Database/2024-01-27-data_definition_language.md
-          - blog/posts/Computer Science/Database/2024-01-27-data_manipulation_language.md
-          - blog/posts/Computer Science/Database/2024-02-07-general_knowledge_in_database.md
-          - blog/posts/Computer Science/Database/2024-03-16-entity_relationship_diagram.md
-          - blog/posts/Computer Science/Database/2024-03-16-entity_relationship_diagram.md
-          - blog/posts/Computer Science/Database/2024-03-23-data_control_language.md
-          - blog/posts/Computer Science/Database/2024-03-16-entity_relationship_diagram.md
-      - 'Cyber Security':
-        - 'Cryptography':
-          - blog/posts/Cyber Security/Cryptography/2024-1-07-exploring_caesar_cipher_encryption_and_decryption.md
+      - 'Web Application Penetration Testing':
+         - blog/posts/Cyber Security/Web Application Penetration Testing/2024-08-07-web_security_essential.md
+      - 'Cryptography':
+         - blog/posts/Cyber Security/Cryptography/2024-1-07-exploring_caesar_cipher_encryption_and_decryption.md
+  - Computer Science:
+      - 'Start Here':
+         - blog/CS.md
+      - 'Object Oriented Programming':
+         - blog/posts/Computer Science/Programming/Object Oriented Programming/2023-12-28-Complex_Class.md
+         - blog/posts/Computer Science/Programming/Object Oriented Programming/2023-03-29-Study_Estimates_System.md
+         - blog/posts/Computer Science/Programming/Object Oriented Programming/2023-03-29-Adding_Elements_of_a_2D_Array.md
+         - blog/posts/Computer Science/Programming/Object Oriented Programming/2023-03-29-Area_Of_Circle_Calcalte.md
+         - blog/posts/Computer Science/Programming/Object Oriented Programming/2023-03-29-Calculating_the_Factorial_of_a_Number.md
+         - blog/posts/Computer Science/Programming/Object Oriented Programming/2023-03-29-Finding_the_Biggest_Number_Between_Two_Values.md
+         - blog/posts/Computer Science/Programming/Object Oriented Programming/2023-03-29-Function_Overloading.md
+         - blog/posts/Computer Science/Programming/Object Oriented Programming/2023-03-29-Insurance_Eligibility_System.md
+         - blog/posts/Computer Science/Programming/Object Oriented Programming/2023-03-29-Math_Functions.md
+         - blog/posts/Computer Science/Programming/Object Oriented Programming/2023-03-29-Number_Checker.md
+         - blog/posts/Computer Science/Programming/Object Oriented Programming/2023-03-29-Separating_Even_and_Odd_Numbers_in_an_Array.md
+         - blog/posts/Computer Science/Programming/Object Oriented Programming/2023-03-29-Study_Estimates_System.md
+         - blog/posts/Computer Science/Programming/Object Oriented Programming/2023-03-29-Summing_Elements_of_a_Matrix.md
+         - blog/posts/Computer Science/Programming/Object Oriented Programming/2023-03-29-Summing_Matrix_Corners_and_Crosses.md
+      - 'Data Structure':
+         - blog/posts/Computer Science/Programming/Data Structure/2024-01-04-delving_deeper_into_factorials.md
+         - blog/posts/Computer Science/Programming/Data Structure/2024-01-05-unraveling_the_fibonacci_sequence.md
+         - blog/posts/Computer Science/Programming/Data Structure/2024-01-06-finding_common_ground_with_recursion.md
+         - blog/posts/Computer Science/Programming/Data Structure/2024-01-06-multiplying_with_recursive_twists.md    
+      - 'Database':
+         - blog/posts/Computer Science/Database/2024-01-27-data_definition_language.md
+         - blog/posts/Computer Science/Database/2024-01-27-data_manipulation_language.md
+         - blog/posts/Computer Science/Database/2024-02-07-general_knowledge_in_database.md
+         - blog/posts/Computer Science/Database/2024-03-16-entity_relationship_diagram.md
+         - blog/posts/Computer Science/Database/2024-03-16-entity_relationship_diagram.md
+         - blog/posts/Computer Science/Database/2024-03-23-data_control_language.md
+         - blog/posts/Computer Science/Database/2024-03-16-entity_relationship_diagram.md   
   - About:
     - About Me : About/about.md
     - Project : About/Projects.md
@@ -89,7 +91,6 @@ plugins:
       tags_file: tags.md
   - blog #:
          # - blog_dir: blog/index.md
-
 markdown_extensions:
   - admonition
   - pymdownx.details

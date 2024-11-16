@@ -1,3 +1,3 @@
-icon:octicons/book-16
-# Blog
+icon:simple/counterstrike
+# Computer Science
 
