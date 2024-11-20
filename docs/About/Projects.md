@@ -46,6 +46,8 @@ This project assessed **Remo Security's network infrastructure**, uncovering:
 
 ## Jr Penetration Tester Notes  
 **Duration**: Sep 2024  
+**GitHub Repository**: [Jr Penetration Tester Notes](https://github.com/Mohammad-Abd-El-Fattah/Jr-Penetration-Tester-Notes)  
+
 A detailed repository from my **Jr Penetration Tester certification journey** on TryHackMe. Topics covered:  
 - Command Injection, SQL Injection, SSRF, Privilege Escalation, and more.  
 
@@ -55,6 +57,8 @@ A detailed repository from my **Jr Penetration Tester certification journey** on
 
 ## Path Traversal Checker  
 **Duration**: Sep 2024  
+**GitHub Repository**: [Path Traversal Checker](https://github.com/Mohammad-Abd-El-Fattah/PathTraversalChecker)  
+
 Developed a Python script to identify **path traversal vulnerabilities** in URLs, featuring:  
 - Automated payload testing.  
 - Detailed results and vulnerability summaries.  
@@ -65,7 +69,8 @@ Developed a Python script to identify **path traversal vulnerabilities** in URLs
 
 ## Port Scanner  
 **Duration**: Aug 2024  
-**Associated with**: WE Innovate  
+**GitHub Repository**: [Port Scanner](https://github.com/Mohammad-Abd-El-Fattah/PortScanner)  
+
 A Python tool for scanning open ports on target IPs. Features include:  
 - Timeout handling and scan duration tracking.  
 
@@ -75,6 +80,8 @@ A Python tool for scanning open ports on target IPs. Features include:
 
 ## Airline Management System  
 **Duration**: Apr 2024  
+**GitHub Repository**: [Airline Management System](https://github.com/Mohammad-Abd-El-Fattah/Airline-Management-System)  
+
 Developed a C++ console application for managing airline reservations, including:  
 - Flight data management.  
 - User-friendly seat reservation functionality.  
@@ -85,6 +92,8 @@ Developed a C++ console application for managing airline reservations, including
 
 ## Hospital Management Information System | OutSystems Platform  
 **Duration**: Feb 2024 - Mar 2024  
+**GitHub Repository**: [Hospital Management Information System](https://github.com/Mohammad-Abd-El-Fattah/Hosptial-Mangement-Infromation-System)  
+
 Created an **efficient HMIS** featuring:  
 - Role-based access for HR, staff, doctors, and patients.  
 - A structured database for appointments and user data.  
@@ -95,6 +104,8 @@ Created an **efficient HMIS** featuring:
 
 ## Robot-Arm Simulator | EME  
 **Duration**: Feb 2024  
+**GitHub Repository**: [Robot-Arm Simulator](https://github.com/Mohammad-Abd-El-Fattah/Robot-Arm-Simulator-EME)  
+
 Designed a **robot-arm simulator** with 3D visualization and GUI, using:  
 - Forward and inverse kinematics functions.  
 
@@ -105,6 +116,8 @@ Designed a **robot-arm simulator** with 3D visualization and GUI, using:
 ## E-Commerce Application | iOS Native App  
 **Duration**: Jul 2023 - Aug 2023  
 **Associated with**: Orange Digital Center Egypt  
+**GitHub Repository**: [E-Commerce Application](https://github.com/Mohammad-Abd-El-Fattah/E-Commerce-ODC)  
+
 Built an iOS app using **Swift** and **SwiftUI**, integrating:  
 - Firebase for backend services.  
 - MVVM architecture and CocoaPods for dependency management.  
