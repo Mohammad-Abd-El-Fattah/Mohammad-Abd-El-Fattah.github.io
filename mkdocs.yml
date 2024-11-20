@@ -47,6 +47,13 @@ nav:
          - blog/index.md
       - 'Web Application Penetration Testing':
          - blog/posts/Cyber Security/Web Application Penetration Testing/2024-08-07-web_security_essential.md
+         - blog/posts/Cyber Security/Web Application Penetration Testing/2024-09-18-Command_Injection.md
+         - blog/posts/Cyber Security/Web Application Penetration Testing/2024-09-19-Cross_Site_Scripting.md
+         - blog/posts/Cyber Security/Web Application Penetration Testing/2024-09-20-File_Inclusion.md
+         - blog/posts/Cyber Security/Web Application Penetration Testing/2024-09-21-Server_Side_Request_Forgery.md
+         - blog/posts/Cyber Security/Web Application Penetration Testing/2024-09-22-Structured_Query_Language.md
+         - blog/posts/Cyber Security/Web Application Penetration Testing/2024-10-03-OS_Injection.md
+         - blog/posts/Cyber Security/Web Application Penetration Testing/2024-10-06-Information_Disclosure.md
       - 'Cryptography':
          - blog/posts/Cyber Security/Cryptography/2024-1-07-exploring_caesar_cipher_encryption_and_decryption.md
   - Computer Science:
