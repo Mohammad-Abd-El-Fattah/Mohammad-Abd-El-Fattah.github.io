@@ -7,37 +7,42 @@ tags:
 ## Web Application Structure
 
 - Web applications are designed to facilitate interaction between users and servers over the internet. Here’s a breakdown of their structure:
-
+---
 
 ## 1. Presentation Layer
 - User Interface (UI): 
   - This is what users interact with directly. It includes HTML, CSS, and JavaScript to create the visual layout and user experience.
 - Client-Side Logic:
   - JavaScript frameworks and libraries (like React, Angular, or Vue.js) handle dynamic content and user interactions.
+---
 
 ## 2. Application Layer
 - Business Logic: 
   - This layer processes user inputs, makes decisions, and performs calculations. It ensures that the application behaves as expected.
 - Server-Side Frameworks: 
   - Technologies like Node.js, Django, Ruby on Rails, and ASP.NET are used to build the server-side logic.
+---
 
 ## 3. Data Layer
 - Database Management: 
   - This layer is responsible for storing and retrieving data. Common databases include SQL (like MySQL, PostgreSQL) and NoSQL (like MongoDB).
 - Data Access Logic: 
    - This includes the code that interacts with the database, such as SQL queries or ORM (Object-Relational Mapping) tools.
+---
 
 ## 4. Communication Layer
 - HTTP/HTTPS Protocols: 
   - These protocols are used for communication between the client and server. HTTPS is preferred for secure communication.
 - APIs: 
   - Application Programming Interfaces (APIs) allow different parts of the application to communicate with each other and with external services.
+---
 
 ## 5. Security Layer
 - Authentication and Authorization: 
   - Ensures that users are who they say they are (authentication) and have permission to access certain resources (authorization).
 - Data Encryption: 
   - Protects data in transit and at rest using encryption techniques.
+---
 
 ## 6. Infrastructure Layer
 - Servers: 
@@ -47,40 +52,43 @@ tags:
 - CDNs (Content Delivery Networks): 
   - Distribute static content (like images, CSS, JavaScript files) across multiple locations to improve load times.
 
-
-
-
-
-
-
+---
 
 ## Related Concepts
 - Site
   - A site refers to a collection of web pages that are related and typically hosted under a single domain name. It represents the entire web presence of an entity, such as a business or organization.
+---
 
 - Domain
   - A domain is the address where Internet users can access a website. It consists of a name (e.g., “example”) and a top-level domain (TLD) (e.g., “.com”). Domains are unique and must be registered.
+---
 
 - Subdomain
   - A subdomain is a subset of a larger domain. It is used to organize and navigate to different sections of a website. For example, “blog.example.com” is a subdomain of “example.com”.
+---
 
 - Origin
   - An origin is defined by the scheme (protocol), host (domain), and port of a URL. For example, the origin of “https://www.example.com:443” is “https://www.example.com”. Origins are crucial for security policies like the Same-Origin Policy (SOP) and Cross-Origin Resource Sharing (CORS).
+---
 
  - SLD (Second-level Domain)
    - SLD is the first point of contact internet users have with your website. It’s the most memorable part of a URL and therefore the most important. Later, we’ll get into all of the different ways you can take advantage of an SLD.
+---
 
 - TLD (Top-Level Domain)
   - A TLD is the last segment of a domain name, following the final dot. Common TLDs include “.com”, “.org”, “.net”, and country-specific TLDs like “.uk” or “.jp”.
+---
 
 ## HTTP Headers and Responses
 - HTTP Headers: 
   - These are key-value pairs sent between the client and server to provide information about the request or response. Common headers include “Content-Type”, “Authorization”, and “User-Agent”.
 - HTTP Responses: 
   - These are the messages sent by the server in response to a client’s request. They include a status code (e.g., 200 OK, 404 Not Found) and may contain data in the body (e.g., HTML, JSON).
+---
 
 ## How Bug Bounty Hunters and Vulnerability Analysts Find Bugs in Each Layer
 - Bug bounty hunters and vulnerability analysts use various techniques and tools to identify security vulnerabilities across different layers of a web application. Here’s a breakdown of how they approach each layer and the types of bugs they might find:
+---
 
 ### Presentation Layer 
 - Techniques: 
@@ -94,6 +102,7 @@ tags:
     - Inserting malicious HTML code into web pages.
   - CSS Injection: 
     - Injecting malicious CSS to alter the appearance of a web page.
+---
     
 ### Application Layer
   - Techniques: 
@@ -109,6 +118,7 @@ tags:
       - Executing arbitrary commands on the server.
     - Authentication Bypass: 
       - Gaining unauthorized access to the application.
+---
 
 ### Data Layer
  - Techniques: 
@@ -122,6 +132,7 @@ tags:
      - Accessing data by manipulating references.
    - Data Leakage: 
      - Unintended exposure of sensitive data.
+---
 
 ### Communication Layer
   - Techniques: 
@@ -135,6 +146,7 @@ tags:
       - Using unencrypted communication channels (HTTP instead of HTTPS).
     - SSL/TLS Vulnerabilities: 
       - Weak encryption algorithms or misconfigurations.
+---
 
 ### Security Layer
   - Techniques: 
@@ -148,6 +160,7 @@ tags:
       - Users accessing resources they shouldn’t.
     - Security Misconfigurations: 
       - Default settings, unnecessary services enabled.
+---
 
 ### Infrastructure Layer
    - Techniques: 
@@ -161,6 +174,7 @@ tags:
        - Running software with known vulnerabilities.
      - Misconfigured Firewalls: 
        - Incorrect firewall rules allowing unauthorized access.
+---
 
 ## Short Descriptions of Each Bug
 
