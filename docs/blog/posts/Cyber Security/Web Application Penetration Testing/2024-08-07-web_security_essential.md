@@ -3,7 +3,8 @@ date: 2024-08-07
 tags: 
       - Cybersecurity
 ---
-# Web Application Structure
+# Web Application Security  Essential
+## Web Application Structure
 
 - Web applications are designed to facilitate interaction between users and servers over the internet. Here’s a breakdown of their structure:
 

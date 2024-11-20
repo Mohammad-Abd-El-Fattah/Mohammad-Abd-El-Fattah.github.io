@@ -1,7 +1,7 @@
 site_name: Mohammad Abd El-Fattah
 theme :
   name: material
-  favicon: docs/blog/images/icon/favicon.ico
+  favicon: favicon.ico
   icon:
    logo: fontawesome/solid/brain
   palette:
@@ -90,7 +90,7 @@ plugins:
   - tags:
       tags_file: tags.md
   - blog #:
-         # - blog_dir: blog/index.md
+         #- blog_dir: blog/index.md
 markdown_extensions:
   - admonition
   - pymdownx.details
