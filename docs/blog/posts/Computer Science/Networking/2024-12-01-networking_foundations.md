@@ -1,5 +1,11 @@
+---
+date: 2024-12-01
+tags: 
+      - CCNA
+      - Network
+---
+# Networking Foundations 
 ## Module 1: Networking Today
-
 ### Key Concepts 
 1. **Network Components**:
    - **End Devices**: Devices that originate or receive data
