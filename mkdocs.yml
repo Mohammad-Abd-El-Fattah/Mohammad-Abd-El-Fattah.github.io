@@ -90,6 +90,10 @@ nav:
       - 'Networking':
          - blog/posts/Computer Science/Networking/2024-12-01-networking_foundations.md
          - blog/posts/Computer Science/Networking/2024-12-01-layers_exploits.md
+         - blog/posts/Computer Science/Networking/2024-12-01-layers_attack.md
+         - blog/posts/Computer Science/Networking/2025-01-03-network_security.md
+         - blog/posts/Computer Science/Networking/2025-01-21-acls_nat_ and_wan_exploits.md
+         - blog/posts/Computer Science/Networking/2025-01-21-qos_network_management_and_automation.md
 
   - About:
     - About Me : About/about.md
