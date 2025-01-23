@@ -89,6 +89,8 @@ nav:
          - blog/posts/Computer Science/Database/2024-03-16-entity_relationship_diagram.md   
       - 'Networking':
          - blog/posts/Computer Science/Networking/2024-12-01-networking_foundations.md
+         - blog/posts/Computer Science/Networking/2024-12-01-layers_exploits.md
+
   - About:
     - About Me : About/about.md
     - Project : About/Projects.md
