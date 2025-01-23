@@ -87,9 +87,8 @@ nav:
          - blog/posts/Computer Science/Database/2024-03-16-entity_relationship_diagram.md
          - blog/posts/Computer Science/Database/2024-03-23-data_control_language.md
          - blog/posts/Computer Science/Database/2024-03-16-entity_relationship_diagram.md   
-       - 'Networking':
-         - 'CCNA':
-           - blog/posts/Computer Science/Networking/CCNA/2024-12-01-networking_foundations.md
+      - 'Networking':
+         - blog/posts/Computer Science/Networking/CCNA/2024-12-01-networking_foundations.md
   - About:
     - About Me : About/about.md
     - Project : About/Projects.md
